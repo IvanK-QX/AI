@@ -1,0 +1,29 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "AI Results Validation",
+  "main": "index.js",
+  "scripts": {
+    "allure:generate": "npx allure generate ./allure-results --clean",
+    "allure:open": "npx allure open ./allure-report",
+    "allure:generate-open": "npx allure generate ./allure-results --clean && allure open",
+    "test": "npx playwright test || :",
+    "posttest": "npm run allure:generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanK-QX/AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanK-QX/AI/issues"
+  },
+  "homepage": "https://github.com/IvanK-QX/AI#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "allure-commandline": "^2.23.1",
+    "allure-playwright": "^2.5.0"
+  }
+}
