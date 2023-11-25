@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 95,
+  "reportUrl" : "https://IvanK-QX.github.io/AI/95/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+}, {
   "buildOrder" : 94,
   "reportUrl" : "https://IvanK-QX.github.io/AI/94/",
   "reportName" : "Allure Report with history",
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 76,
   "reportUrl" : "https://IvanK-QX.github.io/AI/76/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 0,
-    "unknown" : 0,
-    "total" : 0
-  }
-}, {
-  "buildOrder" : 75,
-  "reportUrl" : "https://IvanK-QX.github.io/AI/75/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
